@@ -27,6 +27,9 @@ body {
 .calc-btn:hover {
     background-color: orange;
 }
+.calc-btn-operator:hover {
+    background-color: silver;
+}
 
 .row {
     display: table;
