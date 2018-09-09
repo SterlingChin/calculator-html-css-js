@@ -7,14 +7,13 @@ body {
      -khtml-user-select: none; /* Konqueror HTML */
        -moz-user-select: none; /* Firefox */
         -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
+            user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
 }
 
 .calc-btn {
     background-color: silver;
     color: black;
-    width: 25px;
+    width: 25%;
     height: 45px;
     border: 1px solid gray;
     text-align: center;
@@ -42,7 +41,7 @@ body {
 }
 
 #calc-zero {
-    width: 52.666666667px;
+    width: 50%;
     border-radius: 0 0 0 7px;
     -webkit-border-radius: 0 0 0 7px;
     -moz-border-radius: 0 0 0 7px;
@@ -50,7 +49,7 @@ body {
     -o-border-radius: 0 0 0 7px;
 }
 #calc-clear {
-    width: 52.666666667px;
+    width: 50%;
 }
 #calc-display-val {
     height: 80px;
